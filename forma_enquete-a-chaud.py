@@ -8,15 +8,12 @@ import altair as alt
 st.set_page_config(page_title="Enquête à chaud — Items", layout="wide")
 st.title("📝 Enquête à chaud — Analyse de tous les items")
 
-#st.markdown("""
-#Cette page analyse les items de l’enquête (colonnes **C à AZ**) :
-#
-#- On ignore les colonnes **A et B** (identité / technique).  
-#- Pour chaque item, on prend la **dernière ligne** comme ligne de totaux ("Les Oui").  
-#- On affiche un **camembert** avec les pourcentages par modalité,  
-#  puis les **commentaires** liés à l’item, répartis sur **deux colonnes** pour limiter le scroll.  
-#- En plus, on affiche les **questions ouvertes finales** (colonnes BO, BQ, BS).
-#""")
+st.markdown("""
+Cette page analyse les items de l’enquête (colonnes **C à AZ**) :
+- Pensez à supprimer les informations des colonnes **A et B**.  
+- Vous pouvez imprimer le résultat en pdf afin de l'extraire. 
+En plus, les **questions ouvertes finales** (colonnes BO, BQ, BS) sont affichées.
+""")
 
 # ==============================================================
 # Upload du fichier
