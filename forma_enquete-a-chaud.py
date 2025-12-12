@@ -12,7 +12,7 @@ st.markdown("""
 Cette page analyse les items de l’enquête (colonnes **C à AZ**) :
 - Pensez à supprimer les informations des colonnes **A et B**.  
 - Vous pouvez imprimer le résultat en pdf afin de l'extraire. 
-En plus, les **questions ouvertes finales** (colonnes BO, BQ, BS) sont affichées.
+Les **questions ouvertes finales** (colonnes BO, BQ, BS) sont aussi affichées.
 """)
 
 # ==============================================================
